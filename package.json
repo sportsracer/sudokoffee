@@ -1,0 +1,20 @@
+{
+	"name": "sudokoffee",
+	"author": "Steffen Wenz <steffenwenz@gmail.com>",
+	"scripts": {
+		"prepublish": "node_modules/.bin/docco *.coffee",
+		"test": "node_modules/.bin/nodeunit test"
+	},
+	"dependencies": {
+		"coffee-script": "1.8.x"
+	},
+	"devDependencies": {
+		"docco": "0.6.x",
+		"nodeunit": "0.9.x"
+	},
+	"engine": "node >= 0.10",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/portsracer/sudokoffee"
+	}
+}
